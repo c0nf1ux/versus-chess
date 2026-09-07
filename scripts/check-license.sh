@@ -1,12 +1,21 @@
 #!/usr/bin/env bash
-# Check the actual license on a sourced-model page, without a browser or API token.
+# Check the actual license on a sourced-model page.
 #
-# Works for: MakerWorld, MyMiniFactory (both server-render license data,
-#   fetchable with a plain browser-UA curl request).
-# Does NOT work for: Printables, Cults3D (real Cloudflare JS challenge —
-#   no known workaround short of a real browser session). Thingiverse is
-#   reachable but license data is client-side only; needs their API + a
-#   token (see docs/PROJECT-SPEC.md sourcing notes).
+# Works for: MakerWorld, MyMiniFactory (server-render license data, fetchable
+#   with a plain browser-UA curl request, no auth needed), and Thingiverse
+#   (via their official API -- requires a free App Token, see below).
+# Does NOT work for: Printables, Cults3D (real Cloudflare JS challenge --
+#   no known workaround short of a real logged-in browser session).
+#
+# Thingiverse setup (one-time, per-person, free):
+#   1. Create/log into a Thingiverse account.
+#   2. Go to https://www.thingiverse.com/apps/create
+#   3. Platform: "Desktop App". Fill in any name/description, agree to terms.
+#   4. Copy the "App Token" field (NOT Client ID/Secret -- App Token is the
+#      read-only key that needs no further OAuth steps).
+#   5. export THINGIVERSE_TOKEN="<your app token>"
+#   Never commit this token to the repo -- it's a personal credential, kept
+#   as a local env var only.
 #
 # Usage: ./check-license.sh <model-url>
 
@@ -40,7 +49,7 @@ if ds == -1:
     sys.exit(1)
 m = re.search(r'\"license\":\"[^\"]*\"', html[ds:ds+80000])
 print(m.group(0) if m else '', end='')
-")
+" || true)
     if [[ -z "$LICENSE" ]]; then
       echo "UNKNOWN: could not find a license field for model id $MODEL_ID at $URL"
       exit 1
@@ -51,7 +60,7 @@ print(m.group(0) if m else '', end='')
     fi
     ;;
   *myminifactory.com*)
-    CC=$(grep -o 'creativecommons\.org/licenses/[a-z-]*' "$TMP" | head -1)
+    CC=$(grep -o 'creativecommons\.org/licenses/[a-z-]*' "$TMP" | head -1 || true)
     if [[ -z "$CC" ]]; then
       echo "UNKNOWN: no Creative Commons license link found at $URL (may be a paid/restricted model)"
       exit 1
@@ -61,6 +70,24 @@ print(m.group(0) if m else '', end='')
     if [[ "$VARIANT" == *"nd"* ]]; then
       echo "-> NOT usable at all — No-Derivatives forbids resizing, even for personal use in this project"
     elif [[ "$VARIANT" == *"nc"* || "$VARIANT" == *"by"* ]]; then
+      echo "-> Likely repo-eligible (verify no other restriction on the page)"
+    fi
+    ;;
+  *thingiverse.com*)
+    THING_ID=$(echo "$URL" | grep -o 'thing:[0-9]*' | grep -o '[0-9]*')
+    if [[ -z "${THINGIVERSE_TOKEN:-}" ]]; then
+      echo "NEEDS TOKEN: set THINGIVERSE_TOKEN to check Thingiverse links (see script header for setup)"
+      exit 1
+    fi
+    LICENSE=$(curl -s "https://api.thingiverse.com/things/${THING_ID}?access_token=${THINGIVERSE_TOKEN}" | grep -o '"license":"[^"]*"' || true)
+    if [[ -z "$LICENSE" ]]; then
+      echo "UNKNOWN: no license field returned for thing:$THING_ID (bad token, or thing doesn't exist)"
+      exit 1
+    fi
+    echo "Thingiverse $LICENSE"
+    if [[ "$LICENSE" == *"No Derivatives"* ]]; then
+      echo "-> NOT usable at all — No-Derivatives forbids resizing, even for personal use in this project"
+    else
       echo "-> Likely repo-eligible (verify no other restriction on the page)"
     fi
     ;;

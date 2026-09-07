@@ -1,51 +1,57 @@
 # Matchup 1 — Sourced Model Candidates
 
-Found via web search and manual browsing, not yet license-verified. **Nobody's downloaded, license-checked, or committed anything yet** — this is a candidate list, one step before that. Printables, Thingiverse, Cults3D, and MakerWorld **all** block automated fetching (403/429) — confirmed on all four, not just the first three — so exact license text (which CC variant, remix/redistribution terms) needs a human to open each link and relay back what the badge actually says before anything here gets used.
+Licenses below are **actually verified**, not guessed — via `scripts/check-license.sh` (MakerWorld, MyMiniFactory, Thingiverse — no browser needed) or manual relay for Printables/Cults3D (both run a real Cloudflare JS challenge that blocks all automated access, confirmed, no known workaround). Thingiverse verification requires a personal free `THINGIVERSE_TOKEN` — see the script header for one-time setup.
 
-**Repo-eligible** = license, once actually confirmed, allows redistributing a modified file (CC BY / BY-SA / BY-NC / BY-NC-SA). Paid marketplace files (Cults3D premium, CGTrader, Gambody, Etsy, Gumroad) are print-only — their EULAs generally forbid redistributing the file even if you scale/modify it, so those never go in the repo regardless of what's on the badge.
-
-Roster below reflects the **revised** cast (see `docs/PROJECT-SPEC.md`'s revision note) — Bishop, Cable, Warpath, Polaris, and Quicksilver were swapped out after none of them turned up a usable free model via automated search. Juggernaut was briefly swapped too, then reverted after manual browsing found real free candidates automated search had missed (see below) — a reminder that "not found by search" isn't the same as "doesn't exist."
+**Repo-eligible** = license allows redistributing a *modified* file (resizing counts as a modification): CC BY / BY-SA / BY-NC / BY-NC-SA. **Not eligible, ever, even for personal use in this project**: any "No Derivatives" (ND) variant — resizing to fit the role height is itself the blocked action. **Not eligible for the repo, but fine to print as-is for your own table**: MakerWorld's "Standard Digital File License" / "MakerWorld Exclusive License", CGTrader's "Royalty Free" license, Cults3D's default paid-tier terms, and anything with no stated license at all.
 
 ## X-Men
 
-| Role | Character | Candidate | Platform | Cost | Repo-eligible? |
-|---|---|---|---|---|---|
-| King | Cyclops | User-found: [Cyclops of the X-Men by ? on MakerWorld](https://makerworld.com/en/models/2499992-cyclops-of-the-x-men-next-signing-for-avengers) — also [Cyclops FREE by monster_prey (Thingiverse)](https://www.thingiverse.com/thing:7044304) | MakerWorld / Thingiverse | Free | Need license relayed from the page (I can't fetch either) |
-| Queen | Jean Grey | [Phoenix - Jean Grey (X-men) by Volpy Gregor](https://www.myminifactory.com/object/3d-print-phoenix-jean-grey-x-men-124189) | MyMiniFactory | Free tier + paid tier | Verify which tier / license |
-| Bishop | Gambit *(replaces Bishop)* | User-found: [Gambito XMen on MakerWorld](https://makerworld.com/en/models/2843827-gambito-xmen) — also [Gambit X-Men by Oscar Juárez (Printables)](https://www.printables.com/model/997840-gambit-x-men) | MakerWorld / Printables | Free | Need license relayed from the page |
-| Bishop | Rogue *(replaces Cable)* | User-found: [Rogue X-Men Fan Art on MakerWorld](https://makerworld.com/en/models/3136938-rogue-x-men-fan-art) — also [X-Men: Rogue by Bjoern 3D (MakerWorld)](https://makerworld.com/en/models/1029447-x-men-rogue) or [Kilometros (Printables)](https://www.printables.com/model/1416707-rogue-x-men) | MakerWorld / Printables | Free | Need license relayed from the page |
-| Knight | Nightcrawler | [NIGHTCRAWLER X-MEN by djvice](https://www.printables.com/model/1570606-nightcrawler-x-men) | Printables | Free | Verify license on page |
-| Knight | Wolverine | [Mini Logan - Wolverine by Wekster](https://www.printables.com/model/225-mini-logan-wolverine) (also [Thingiverse](https://www.thingiverse.com/thing:2878103)) | Printables / Thingiverse | Free | Listed as "CC 4.0" — need exact variant |
-| Rook | Colossus | User-found: [Colossus on MakerWorld](https://makerworld.com/en/models/791080-colossus) — also [Colossus - X-men by Volpy Gregor (MyMiniFactory)](https://www.myminifactory.com/object/3d-print-colossus-x-men-124831) | MakerWorld / MyMiniFactory | Free | Need license relayed from the page |
-| Rook | Iceman *(replaces Warpath)* | [Iceman (X-men) by Volpy Gregor](https://www.myminifactory.com/object/3d-print-iceman-x-men-128405) — same creator as Jean Grey and Colossus above, so Queen + both Rooks could share one sculptor's style | MyMiniFactory | Free tier + paid tier | Verify which tier / license |
-| Pawn x8 | Danger Room training dummy | — | — | — | **No real match found.** Only an oversized (407mm) diorama display piece turned up, wrong purpose. Needs a generic mannequin/training-dummy search or a custom sculpt. |
+| Role | Character | Candidate | Verified license | Status |
+|---|---|---|---|---|
+| King | Cyclops | [monster_prey (Thingiverse)](https://www.thingiverse.com/thing:7044304) | CC BY-NC | ✅ Repo-eligible |
+| Queen | Jean Grey | ~~[Volpy Gregor (MyMiniFactory)](https://www.myminifactory.com/object/3d-print-phoenix-jean-grey-x-men-124189)~~ | CC BY-NC-**ND** | ❌ Not usable at all (blocks resize). **Needs a new candidate.** |
+| Bishop | Gambit *(replaces Bishop)* | [MakerWorld](https://makerworld.com/en/models/2843827-gambito-xmen) | Standard Digital File License | ❌ Not repo-eligible. [Printables alt](https://www.printables.com/model/997840-gambit-x-men) still unverified (blocked) |
+| Bishop | Rogue *(replaces Cable)* | [MakerWorld](https://makerworld.com/en/models/3136938-rogue-x-men-fan-art) | Standard Digital File License | ❌ Not repo-eligible. Other MakerWorld/Printables alts still unverified (blocked) |
+| Knight | Nightcrawler | [djvice (Printables)](https://www.printables.com/model/1570606-nightcrawler-x-men) | Unverified — Printables blocked | ⏳ Needs manual check |
+| Knight | Wolverine | [Myke542 (Thingiverse)](https://www.thingiverse.com/thing:4193461) | CC BY | ✅ Repo-eligible. (Also valid: [h3xequy](https://www.thingiverse.com/thing:5365711) BY-NC-SA, [MustangDave](https://www.thingiverse.com/thing:267321) BY-NC. Original Wekster "Mini Logan" candidate was CC BY-NC-**ND** — dropped.) |
+| Rook | Colossus | ~~[MyMiniFactory](https://www.myminifactory.com/object/3d-print-colossus-x-men-124831)~~ dead link (404); [MakerWorld](https://makerworld.com/en/models/791080-colossus) | Standard Digital File License | ❌ Not repo-eligible, and the alt is dead. **Needs a new candidate.** |
+| Rook | Iceman *(replaces Warpath)* | ~~[Volpy Gregor (MyMiniFactory)](https://www.myminifactory.com/object/3d-print-iceman-x-men-128405)~~ | CC BY-NC-**ND** | ❌ Not usable at all (blocks resize). **Needs a new candidate.** |
+| Pawn x8 | Danger Room training dummy | — | — | ⏳ Unresolved — only an oversized (407mm) diorama display piece has turned up, wrong purpose |
+
+**Note:** Volpy Gregor's whole line (Jean Grey, Colossus, Iceman) is out — either ND-licensed or dead. The "one creator, consistent style" idea from earlier doesn't hold up; each of these three now needs an independent replacement.
 
 ## Brotherhood
 
-| Role | Character | Candidate | Platform | Cost | Repo-eligible? |
-|---|---|---|---|---|---|
-| King | Magneto | [Marvel Magneto Bust](https://assetsfree.com/marvel-magneto-bust-free-3d-printable-stl-model/) | AssetsFree.com | Free (claimed) | Site itself checked out (75/100 trust score, 4+ years live) — still verify the actual license text on the page |
-| Queen | Mystique | [Mystique X-men by RyanTheMast](https://cults3d.com/en/3d-model/art/ryanthemast-2) | Cults3D | Free | Verify license on page |
-| Bishop | Scarlet Witch *(replaces Polaris)* | [Wanda Scarlet Witch Marvel by ConcreteHead](https://www.printables.com/model/68623-wanda-scarlet-witch-marvel) — sculpted in ZBrush | Printables | Free | Verify license on page |
-| Bishop | Toad *(replaces Quicksilver)* | [Toad X-Men (35mm pre-supported Wargame Miniature) by Kobarf](https://www.thingiverse.com/thing:4230179) — same creator as the Colossus wargaming-mini alternate above | Thingiverse | Free | Verify license on page |
-| Knight | Sabretooth | [Sabretooth from the X-Men Comics by Rober Rollin](https://www.myminifactory.com/object/3d-print-sabretooth-from-the-x-men-comics-105822) | MyMiniFactory | Unconfirmed | Verify price/license on page |
-| Knight | Omega Red | [Wicked Marvel Omega Red Bust](https://www.cgtrader.com/free-3d-print-models/art/other/wicked-marvel-omega-red-bust) | CGTrader | Free (URL path says so) | Verify license on page |
-| Rook | Blob | — | — | — | **Still unresolved after 5 automated search attempts** (direct, "The Blob"/Fred Dukes, Cults3D-targeted, and via the 3dWicked catalog which covers dozens of other Marvel busts but not this one). Given Juggernaut turned up on manual Cults3D browsing after automated search missed him entirely, worth a manual check here too before assuming Blob truly doesn't exist on the platform. |
-| Rook | Juggernaut | [Juggernaut by customsculture](https://cults3d.com/en/3d-model/art/juggernaut-customsculture) or [Juggernaut by Artaniss](https://cults3d.com/en/3d-model/game/juggernaut-artaniss) — found via manual browsing, confirmed free by user; automated search missed both | Cults3D | Free (user-confirmed) | Verify exact license badge on page (free-to-download ≠ free-to-redistribute-modified on Cults3D — look for the CC badge specifically, not just price) |
-| Pawn x8 | Reprogrammed Sentinel | [Sentinel (X-MEN) by DUB DA GREAT](https://makerworld.com/en/models/2475206-sentinel-x-men) | MakerWorld | Free | Verify license on page |
+| Role | Character | Candidate | Verified license | Status |
+|---|---|---|---|---|
+| King | Magneto | [AssetsFree.com](https://assetsfree.com/marvel-magneto-bust-free-3d-printable-stl-model/) | No license stated on page (just "free") | ❌ Not repo-eligible by default — no stated terms to claim redistribution rights |
+| Queen | Mystique | [RyanTheMast (Cults3D)](https://cults3d.com/en/3d-model/art/ryanthemast-2) | Unverified — Cults3D blocked | ⏳ Needs manual check |
+| Bishop | Scarlet Witch *(replaces Polaris)* | [ConcreteHead (Printables)](https://www.printables.com/model/68623-wanda-scarlet-witch-marvel) | Unverified — Printables blocked | ⏳ Needs manual check |
+| Bishop | Toad *(replaces Quicksilver)* | [Kobarf (Thingiverse)](https://www.thingiverse.com/thing:4230179) | CC BY-NC-SA | ✅ Repo-eligible |
+| Knight | Sabretooth | [Rober Rollin (MyMiniFactory)](https://www.myminifactory.com/object/3d-print-sabretooth-from-the-x-men-comics-105822) | No CC license found (likely paid tier) | ❌ Not repo-eligible |
+| Knight | Omega Red | [Wicked/3dWicked (CGTrader)](https://www.cgtrader.com/free-3d-print-models/art/other/wicked-marvel-omega-red-bust) | CGTrader "Royalty Free" ($0.00, free:true confirmed) | ❌ Not repo-eligible — CGTrader's Royalty Free terms forbid redistributing the file itself. Fine to print as-is. |
+| Rook | Blob | — | — | ⏳ Unresolved after 5 search attempts (see below) |
+| Rook | Juggernaut | [customsculture](https://cults3d.com/en/3d-model/art/juggernaut-customsculture) or [Artaniss](https://cults3d.com/en/3d-model/game/juggernaut-artaniss) (Cults3D) | User-confirmed free; exact CC variant unverified — Cults3D blocked | ⏳ Needs manual check of the actual badge (not just price) |
+| Pawn x8 | Reprogrammed Sentinel | [DUB DA GREAT (MakerWorld)](https://makerworld.com/en/models/2475206-sentinel-x-men) | MakerWorld Exclusive License | ❌ Not repo-eligible. **Needs a new candidate.** |
 
 ## Also considered and rejected for the Brotherhood Rook slot
 
-Before finding real Juggernaut candidates via manual browsing, automated search turned up nothing for him, so alternates were considered: **Avalanche** (Cults3D free candidate found, but a weaker "wall" archetype fit — his power is seismic/area-denial, not immovable mass), **Unus the Untouchable** (founding Brotherhood member, force-field power is actually a strong "wall" fit — but too obscure, no dedicated model found), and **Frenzy/Joanna Cargill** (modern Brotherhood/Acolytes brute — also no model found). All moot now that Juggernaut himself is back in.
+Before finding real Juggernaut candidates via manual browsing, automated search turned up nothing for him, so alternates were considered: **Avalanche** (Cults3D free candidate found, but a weaker "wall" archetype fit), **Unus the Untouchable** (founding Brotherhood member, strong thematic fit, but no model exists anywhere searched), and **Frenzy/Joanna Cargill** (also no model found). All moot now that Juggernaut himself is confirmed findable.
+
+## Automated verification tooling
+
+`scripts/check-license.sh <url>` — checks MakerWorld and MyMiniFactory with no auth at all (they server-render license data into plain HTML), and Thingiverse via their official API (needs a one-time free `THINGIVERSE_TOKEN`, see script header). Printables and Cults3D run a genuine Cloudflare JS challenge with no known automated workaround — those need a human to open the page and relay back the actual license badge shown.
 
 ## Summary
 
-- **Solid free candidates, pending license verification (13):** Cyclops, Jean Grey, Gambit, Rogue, Nightcrawler, Wolverine, Colossus, Iceman, Mystique, Scarlet Witch, Toad, Omega Red, Sentinel, Juggernaut.
-- **Unresolved (2):** Danger Room training dummy, Blob.
-- **Needs a legitimacy check beyond site trust (1):** confirm the exact license text on the Magneto page.
+- **Confirmed repo-eligible (3):** Cyclops, Wolverine, Toad.
+- **Confirmed NOT usable at all, ND blocks resizing (2):** Jean Grey, Iceman — need replacements.
+- **Confirmed not repo-eligible, personal-print-only (6):** Gambit, Rogue, Colossus, Magneto, Sabretooth, Omega Red, Sentinel — Colossus and Sentinel need full replacements since their only other candidates are dead/nonexistent; the rest may still have a repo-eligible alternative on Printables/Cults3D pending manual check.
+- **Still unresolved, no candidate at all (2):** Danger Room training dummy, Blob.
+- **Awaiting manual relay from a blocked platform (4):** Nightcrawler, Mystique, Scarlet Witch, Juggernaut.
 
 ## Next steps
 
-1. Manually open each "verify license on page" link and record the exact license text here.
-2. Revisit Blob and the Danger Room dummy later — both need either a different search angle, a custom sculpt, or acceptance that they stay open.
+1. Manually check the 4 "awaiting manual relay" links on Printables/Cults3D and report back the license badge shown.
+2. Find real replacements for Jean Grey, Iceman, Colossus, and Sentinel — all four currently have zero repo-eligible options.
 3. Once a character's license is confirmed repo-eligible, download it into `matchups/xmen-vs-brotherhood/raw/<character>.stl` (gitignored raw source, kept local) and use `import()` + `resize()` in a per-character `.scad` file to conform it to that role's height from `docs/PROJECT-SPEC.md`.
