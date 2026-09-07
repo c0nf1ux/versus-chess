@@ -84,7 +84,7 @@ Board order for reference: Rook–Knight–Bishop–[Queen–King]–Bishop–Kn
 |---|---|---|
 | King | Gambit | Magneto |
 | Queen | Rogue | Mystique |
-| Bishop x2 | Cyclops, Havok | Scarlet Witch, Toad |
+| Bishop x2 | Cyclops, Cable | Toad, Quicksilver |
 | Knight x2 | Nightcrawler, Wolverine | Sabretooth, Omega Red |
 | Rook x2 | Colossus, Beast | Blob, Juggernaut |
 | Pawn (x8, one sculpt reused) | Danger Room training dummy | Reprogrammed Sentinel |
@@ -97,10 +97,29 @@ Juggernaut was briefly swapped for Avalanche when automated search turned up not
 
 **Third revision (King/Queen/Bishop restructure):** Jean Grey's Queen slot had zero repo-eligible options after multiple search rounds (all leads were ND-licensed, wrong format, or on blocked platforms). Rather than force a compromise into Queen specifically, the King/Queen pairing shifted to **Gambit/Rogue** — another long-running, iconic X-Men romantic pairing (this preserves the "King/Queen = the couple" logic the original Cyclops/Jean Grey pick was built on), which frees Cyclops to become one of the two Bishops instead of being dropped. The second Bishop is **Havok** (Alex Summers), Cyclops's brother — his plasma-blast power is an even closer archetype match to Cyclops's optic beam than Jean Grey's telepathy was, so the "Bishop = long-range specialist" logic actually got stronger, not weaker. This also drops Storm and Psylocke from consideration (both were explored as Bishop alternates before the Havok idea, both hit dead ends — Storm's only real candidate was CC BY-NC-ND, Psylocke's was both non-repo-eligible and the wrong format, a Hueforge 2.5D print rather than an actual sculpt) and drops Jean Grey from the roster entirely. Kobarf (the creator behind the Colossus/Toad wargaming-miniature alternates) has a whole consistent-style X-Men/Marvel line, including Cyclops, Gambit, Juggernaut, and Quicksilver — worth checking first for any future roster gaps. One Havok candidate found (chibiprinters, Cults3D) was rejected outright for being partially AI-generated, regardless of license — same standard applied to the earlier UncleKam X-Men Busts pack.
 
-Roster complete. Full cast, both sides (Gambit, Rogue, Havok, and Beast are all still pending final license confirmation — their only found candidates are on blocked platforms):
+**Fourth revision (personal-use pivot + statue-quality sourcing pass):** Realized the licensing fights above were solving the wrong problem for this matchup. Marvel/X-Men characters can never legally be sold regardless of license (see "Licensing Strategy" below) — this build is personal-use-only, full stop. That makes "is it free" and "is it CC-licensed" irrelevant; the only real bar is **legally downloadable and genuinely detailed** (a full sculpted statue in a dynamic pose, not a bust/mini/Lego-figure/Funko-style toy). This reopens candidates earlier rejected purely for license reasons (e.g. ND-licensed Storm/Iceman/Jean Grey) — they were never wrong on quality grounds, only on a redistribution requirement that no longer applies. AI-generated origin is now a tolerable fallback signal (lower priority, not an automatic reject) rather than a hard disqualifier, given nothing here is being redistributed.
 
-X-Men: Gambit, Rogue, Cyclops, Havok, Nightcrawler, Wolverine, Colossus, Beast, Danger Room training dummy (x8, unsourced)
-Brotherhood: Magneto, Mystique, Scarlet Witch, Toad, Sabretooth, Omega Red, Blob (unsourced), Juggernaut, reprogrammed Sentinel (x8) — Sentinel pawns should read as decayed/reprogrammed-by-Magneto at the paint/finishing stage, not a pristine sculpt
+Re-sourced with this corrected bar, checking actual thumbnails before accepting any candidate (previous passes had been trusting titles/licenses without looking):
+- **Cyclops, Wolverine, Colossus, Beast, Gambit, Rogue** all landed genuine detailed dynamic-pose statues on MakerWorld (diorama bases, real print photos, not renders).
+- **Havok** turned up nothing usable anywhere (Thingiverse, Cults3D, MakerWorld) — swapped out for **Cable**, who has a real detailed statue (armed dynamic pose, diorama base). Bishop is now Cyclops + Cable.
+- **Nightcrawler** and the **Danger Room training dummy** still have no statue-quality candidate found on any platform — open.
+- Brotherhood: **Magneto, Mystique, Sabretooth, Juggernaut** all landed excellent statues (Juggernaut's is genuine premium-collectible quality, best find of the pass). **Sentinel** has a decent full-body robot design (Thingiverse).
+- **Scarlet Witch**'s only candidate is a rough/messy test-print photo — swapped for **Quicksilver** (Kobarf, Thingiverse — same trusted sculptor as Toad, excellent dynamic running pose). Brotherhood Bishop is now Toad + Quicksilver.
+- **Omega Red** and **Blob** still have nothing on any platform checked (4 platforms now for Blob specifically) — open.
+- Also checked and confirmed empty: Bishop (the character), Banshee, "Danger" (the Danger Room AI character), Polaris.
+
+Roster complete except four open slots (Nightcrawler, Danger Room training dummy, Omega Red, Blob) still being actively sourced:
+
+X-Men: Gambit, Rogue, Cyclops, Cable, Nightcrawler (open), Wolverine, Colossus, Beast, Danger Room training dummy (open)
+Brotherhood: Magneto, Mystique, Toad, Quicksilver, Sabretooth, Omega Red (open), Blob (open), Juggernaut, reprogrammed Sentinel (x8) — Sentinel pawns should read as decayed/reprogrammed-by-Magneto at the paint/finishing stage, not a pristine sculpt
+
+## Licensing Strategy (Personal-Use vs. Public/Open Matchups)
+
+Copyrighted-character matchups (X-Men vs Brotherhood, and any future one built on owned IP — Marvel, DC, game franchises, etc.) are **personal-use-only builds**. No license on a sourced model changes the fact that these characters can never legally be sold or redistributed — so for these matchups, model sourcing only needs to clear two bars: legally downloadable, and genuinely good quality. Redistribution license (CC BY vs Standard vs ND) doesn't matter here since nothing is being redistributed.
+
+The **actual public/open-source repo content** — what gets published for others to fork, remix, and build their own sets from — uses **public-domain-safe themes** instead, where the characters themselves carry no IP restriction at all: Gothic Monsters vs Cosmic Horrors, King Arthur's Court vs Unseelie Dark Court, Olympians vs Titans (Greek mythology), Aesir vs Jötnar (Norse gods vs giants), Dinosaurs vs Cryptids, and Alice's Wonderland vs Neverland (note: Peter Pan carries a UK-specific perpetual copyright quirk for Great Ormond Street Hospital — fine for US/personal/open use, worth knowing about for any future UK-commercial angle).
+
+**Monetization**, per this same logic, comes from the parametric rig/case tooling itself (already MIT-licensed, decoupled from any character IP) — e.g. selling the storage case as a standalone product — not from character content, which can never be sold regardless of matchup.
 
 Sentinel chosen over Genoshan Magistrates for the pawn specifically because a giant blocky robot is visually distinct at a glance from the humanoid, person-scaled Danger Room dummy, whereas Magistrates (human-shaped armored soldiers) would have silhouette-overlapped with the X-Men pawn.
 

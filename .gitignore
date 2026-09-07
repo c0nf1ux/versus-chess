@@ -2,3 +2,7 @@
 Thumbs.db
 *.bak
 *~
+
+# Personal-use-only matchups (Marvel/X-Men etc.) -- sourced character files
+# are never committed, only the planning docs. See matchups/*/README.md.
+matchups/*/raw/
