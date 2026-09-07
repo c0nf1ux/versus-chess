@@ -12,6 +12,24 @@ Piece base diameter is set entirely by this specific table's square dimensions (
 
 This is the final footprint constant for this build. Only remaining decision is where within the 60-70mm range to set king height, a design choice rather than a measurement question.
 
+## Locked Dimensions
+
+- **Base diameter: 30mm, uniform across all six roles.** Middle of the 28-32mm clearance range, ~43% of the 70mm square. One base size for every piece (rather than varying per role) keeps the sizing rig simpler and guarantees no board collisions regardless of role.
+- **King height: 65mm.** Middle of the 60-70mm proportionate range.
+
+Full derived height hierarchy (Staunton ratios above, applied to the 65mm king):
+
+| Piece | Ratio | Height |
+|---|---|---|
+| King | 1.00 | 65mm |
+| Queen | 0.90 | 58.5mm |
+| Bishop | 0.80 | 52mm |
+| Knight | 0.75 | 48.75mm |
+| Rook | 0.70 | 45.5mm |
+| Pawn | 0.60 | 39mm |
+
+These are the concrete inputs to `rig/rig.scad` — one base diameter, six heights.
+
 ## Distribution Goal: Git Repo and Community Builds
 This project is intended for eventual publishing (git repo, Bambu Makerworld community sharing), not just a personal one-off build. This changes the sizing rig from a fixed model into a parametric one:
 - Square size, base clearance ratio, and king-height-to-base ratio should be exposed as top-level parameters (OpenSCAD is the natural fit for this) rather than hardcoded to this table's ~70mm measurement.

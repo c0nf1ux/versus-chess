@@ -16,20 +16,21 @@ Full design rationale, measurements, and the "why" behind every default is in [`
 
 ## Status
 
-- [x] Table measured, base footprint constant locked (70mm/square, ~28-32mm base diameter)
+- [x] Table measured, base footprint constant locked (70mm/square, 30mm base diameter)
+- [x] King height locked (65mm) — full height table in [`docs/PROJECT-SPEC.md`](docs/PROJECT-SPEC.md#locked-dimensions)
 - [x] Matchup 1 roster complete (X-Men vs Brotherhood)
 - [x] Matchup 2 roster complete (Overwatch vs Marvel Rivals)
-- [ ] King height chosen, parametric sizing rig built in OpenSCAD
+- [ ] Role blank silhouette designed (`rig/rig.scad` has a placeholder cylinder pending the real profile)
 - [ ] Matchup 1 sculpts
 - [ ] Parametric storage case
 
-This repo is a work in progress — the rig and case OpenSCAD files aren't built yet. Rosters and design docs are complete and go up first.
+This repo is a work in progress — dimensions are locked and the rig scaffolding exists, but the real blank silhouette and all sculpts are still ahead.
 
 ## Repo layout
 
 ```
 docs/       full project spec (measurements, architecture, rationale)
-rig/        parametric OpenSCAD sizing rig (WIP)
+rig/        parametric OpenSCAD sizing rig (dimensions locked, silhouette WIP)
 case/       parametric storage case template (WIP)
 matchups/   per-matchup rosters and sculpt files
 ```
