@@ -1,6 +1,6 @@
 # Matchup 1 — Sourced Model Candidates
 
-Found via web search, not yet manually verified. **Nobody's downloaded, license-checked, or committed anything yet** — this is a candidate list, one step before that. Printables, Thingiverse, and Cults3D all block automated fetching (403/429), so exact license text (which CC variant, remix/redistribution terms) needs a human to open each link and check the badge before anything here gets used.
+Found via web search and manual browsing, not yet license-verified. **Nobody's downloaded, license-checked, or committed anything yet** — this is a candidate list, one step before that. Printables, Thingiverse, Cults3D, and MakerWorld **all** block automated fetching (403/429) — confirmed on all four, not just the first three — so exact license text (which CC variant, remix/redistribution terms) needs a human to open each link and relay back what the badge actually says before anything here gets used.
 
 **Repo-eligible** = license, once actually confirmed, allows redistributing a modified file (CC BY / BY-SA / BY-NC / BY-NC-SA). Paid marketplace files (Cults3D premium, CGTrader, Gambody, Etsy, Gumroad) are print-only — their EULAs generally forbid redistributing the file even if you scale/modify it, so those never go in the repo regardless of what's on the badge.
 
@@ -10,13 +10,13 @@ Roster below reflects the **revised** cast (see `docs/PROJECT-SPEC.md`'s revisio
 
 | Role | Character | Candidate | Platform | Cost | Repo-eligible? |
 |---|---|---|---|---|---|
-| King | Cyclops | [Cyclops FREE 3D Print model by monster_prey](https://www.thingiverse.com/thing:7044304) | Thingiverse | Free | Verify license on page |
+| King | Cyclops | User-found: [Cyclops of the X-Men by ? on MakerWorld](https://makerworld.com/en/models/2499992-cyclops-of-the-x-men-next-signing-for-avengers) — also [Cyclops FREE by monster_prey (Thingiverse)](https://www.thingiverse.com/thing:7044304) | MakerWorld / Thingiverse | Free | Need license relayed from the page (I can't fetch either) |
 | Queen | Jean Grey | [Phoenix - Jean Grey (X-men) by Volpy Gregor](https://www.myminifactory.com/object/3d-print-phoenix-jean-grey-x-men-124189) | MyMiniFactory | Free tier + paid tier | Verify which tier / license |
-| Bishop | Gambit *(replaces Bishop)* | [Gambit X-Men by Oscar Juárez](https://www.printables.com/model/997840-gambit-x-men) | Printables | Free | Verify license on page |
-| Bishop | Rogue *(replaces Cable)* | [X-Men: Rogue by Bjoern 3D](https://makerworld.com/en/models/1029447-x-men-rogue) or [Rogue X-MEN by Kilometros](https://www.printables.com/model/1416707-rogue-x-men) | MakerWorld / Printables | Free | Verify license on page |
+| Bishop | Gambit *(replaces Bishop)* | User-found: [Gambito XMen on MakerWorld](https://makerworld.com/en/models/2843827-gambito-xmen) — also [Gambit X-Men by Oscar Juárez (Printables)](https://www.printables.com/model/997840-gambit-x-men) | MakerWorld / Printables | Free | Need license relayed from the page |
+| Bishop | Rogue *(replaces Cable)* | User-found: [Rogue X-Men Fan Art on MakerWorld](https://makerworld.com/en/models/3136938-rogue-x-men-fan-art) — also [X-Men: Rogue by Bjoern 3D (MakerWorld)](https://makerworld.com/en/models/1029447-x-men-rogue) or [Kilometros (Printables)](https://www.printables.com/model/1416707-rogue-x-men) | MakerWorld / Printables | Free | Need license relayed from the page |
 | Knight | Nightcrawler | [NIGHTCRAWLER X-MEN by djvice](https://www.printables.com/model/1570606-nightcrawler-x-men) | Printables | Free | Verify license on page |
 | Knight | Wolverine | [Mini Logan - Wolverine by Wekster](https://www.printables.com/model/225-mini-logan-wolverine) (also [Thingiverse](https://www.thingiverse.com/thing:2878103)) | Printables / Thingiverse | Free | Listed as "CC 4.0" — need exact variant |
-| Rook | Colossus | [Colossus - X-men by Volpy Gregor](https://www.myminifactory.com/object/3d-print-colossus-x-men-124831) | MyMiniFactory | Free tier + paid tier | Verify which tier / license |
+| Rook | Colossus | User-found: [Colossus on MakerWorld](https://makerworld.com/en/models/791080-colossus) — also [Colossus - X-men by Volpy Gregor (MyMiniFactory)](https://www.myminifactory.com/object/3d-print-colossus-x-men-124831) | MakerWorld / MyMiniFactory | Free | Need license relayed from the page |
 | Rook | Iceman *(replaces Warpath)* | [Iceman (X-men) by Volpy Gregor](https://www.myminifactory.com/object/3d-print-iceman-x-men-128405) — same creator as Jean Grey and Colossus above, so Queen + both Rooks could share one sculptor's style | MyMiniFactory | Free tier + paid tier | Verify which tier / license |
 | Pawn x8 | Danger Room training dummy | — | — | — | **No real match found.** Only an oversized (407mm) diorama display piece turned up, wrong purpose. Needs a generic mannequin/training-dummy search or a custom sculpt. |
 
