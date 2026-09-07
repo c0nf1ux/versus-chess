@@ -54,6 +54,8 @@ Note: bishop has the same two-copies-per-side duplicate count as rook and knight
 ## Storage Case System
 Single parametric case template (OpenSCAD is the right tool here, same reasoning as the sizing rig, and the same parametric requirement applies given the publishing goal) with a small set of exposed variables per matchup: piece count (32 fixed), per-role height (from Layer 1), base diameter (from the footprint constant), and two-color grouping. A new matchup's case becomes a parameter change and re-render rather than a new design. Recommend a tray-insert style (slots sized to each role's base + height) over a single deep box, so pieces don't shift or chip in storage.
 
+**Lid/latch hardware:** magnet closure is available as an option for the lid — a stock of 400 magnets across 4 different sizes is on hand, so the case template can include printed magnet pockets (sized to whichever of the 4 diameters fits the lid thickness) rather than needing a separate mechanical latch or hinge. This should also be exposed as a parameter (magnet diameter/depth, pocket count/placement) since it's hardware-driven, not fixed by the piece geometry.
+
 ## Print Profile
 Reuse the same 15cm-statue-adjacent print settings established for the statue projects (0.4mm nozzle, 0.2mm layer height, 2 walls, 15% infill, PLA) as the default, adjusting wall count upward for pieces that will see frequent handling during actual games rather than display only, since gameplay pieces take more wear than a display statue.
 
