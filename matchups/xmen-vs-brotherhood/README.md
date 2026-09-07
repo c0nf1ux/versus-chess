@@ -6,9 +6,9 @@ Board order: Rook–Knight–Bishop–[Queen–King]–Bishop–Knight–Rook, m
 
 | Role | X-Men | Brotherhood |
 |---|---|---|
-| King | Cyclops | Magneto |
-| Queen | Jean Grey | Mystique |
-| Bishop x2 | Gambit, Rogue | Scarlet Witch, Toad |
+| King | Gambit | Magneto |
+| Queen | Rogue | Mystique |
+| Bishop x2 | Cyclops, Havok | Scarlet Witch, Toad |
 | Knight x2 | Nightcrawler, Wolverine | Sabretooth, Omega Red |
 | Rook x2 | Colossus, Beast | Blob, Juggernaut |
 | Pawn (x8, one sculpt reused) | Danger Room training dummy | Reprogrammed Sentinel |

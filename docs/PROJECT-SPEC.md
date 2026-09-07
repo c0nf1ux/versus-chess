@@ -82,9 +82,9 @@ Board order for reference: Rook–Knight–Bishop–[Queen–King]–Bishop–Kn
 
 | Role | X-Men | Brotherhood |
 |---|---|---|
-| King | Cyclops | Magneto |
-| Queen | Jean Grey | Mystique |
-| Bishop x2 | Gambit, Rogue | Scarlet Witch, Toad |
+| King | Gambit | Magneto |
+| Queen | Rogue | Mystique |
+| Bishop x2 | Cyclops, Havok | Scarlet Witch, Toad |
 | Knight x2 | Nightcrawler, Wolverine | Sabretooth, Omega Red |
 | Rook x2 | Colossus, Beast | Blob, Juggernaut |
 | Pawn (x8, one sculpt reused) | Danger Room training dummy | Reprogrammed Sentinel |
@@ -93,11 +93,13 @@ Board order for reference: Rook–Knight–Bishop–[Queen–King]–Bishop–Kn
 
 Juggernaut was briefly swapped for Avalanche when automated search turned up nothing for him, but manual browsing on Cults3D found real free candidates search had missed — reverted back to Juggernaut, the correct archetype fit for Rook anyway. Blob himself still remains an open sourcing gap (automated search never found him; worth a manual Cults3D check too, same as Juggernaut).
 
-**Second revision (license verification pass):** Actually checking licenses (not just "is it free") on the sourced candidates found that Jean Grey and Iceman's only options (both by the same creator, Volpy Gregor) are CC BY-NC-**ND** — No Derivatives, which blocks the resize-to-fit-role-height step entirely, not just redistribution. Iceman was swapped for **Beast** (strength/agility archetype, a looser thematic fit than the ice-armor parallel to Colossus, but a real popular character worth having in the roster regardless). Jean Grey has no replacement yet — Queen is the one role where a substitute would be a real loss (Cyclops/Jean Grey as King/Queen mirrors their in-universe marriage), so a last Cults3D lead is being manually checked before considering alternatives. Colossus's MakerWorld/MyMiniFactory candidates were also both non-repo-eligible (Standard License / dead link) — replaced with a real Thingiverse find (purakito, CC BY-NC). Sentinel's MakerWorld candidate was "MakerWorld Exclusive License" — replaced with two real CC BY Thingiverse options. Also worth noting for later: Kobarf (the creator behind the Colossus/Toad wargaming-miniature alternates) has a whole consistent-style X-Men/Marvel line, including Cyclops, Gambit, Juggernaut, and Quicksilver — worth checking first for any future roster gaps.
+**Second revision (license verification pass):** Actually checking licenses (not just "is it free") on the sourced candidates found that Jean Grey and Iceman's only options (both by the same creator, Volpy Gregor) are CC BY-NC-**ND** — No Derivatives, which blocks the resize-to-fit-role-height step entirely, not just redistribution. Iceman was swapped for **Beast**. Colossus's MakerWorld/MyMiniFactory candidates were also both non-repo-eligible (Standard License / dead link) — replaced with a real Thingiverse find (purakito, CC BY-NC). Sentinel's MakerWorld candidate was "MakerWorld Exclusive License" — replaced with two real CC BY Thingiverse options.
 
-Roster complete. Full cast, both sides (Beast still pending final confirmation — its only found candidate is on a blocked platform):
+**Third revision (King/Queen/Bishop restructure):** Jean Grey's Queen slot had zero repo-eligible options after multiple search rounds (all leads were ND-licensed, wrong format, or on blocked platforms). Rather than force a compromise into Queen specifically, the King/Queen pairing shifted to **Gambit/Rogue** — another long-running, iconic X-Men romantic pairing (this preserves the "King/Queen = the couple" logic the original Cyclops/Jean Grey pick was built on), which frees Cyclops to become one of the two Bishops instead of being dropped. The second Bishop is **Havok** (Alex Summers), Cyclops's brother — his plasma-blast power is an even closer archetype match to Cyclops's optic beam than Jean Grey's telepathy was, so the "Bishop = long-range specialist" logic actually got stronger, not weaker. This also drops Storm and Psylocke from consideration (both were explored as Bishop alternates before the Havok idea, both hit dead ends — Storm's only real candidate was CC BY-NC-ND, Psylocke's was both non-repo-eligible and the wrong format, a Hueforge 2.5D print rather than an actual sculpt) and drops Jean Grey from the roster entirely. Kobarf (the creator behind the Colossus/Toad wargaming-miniature alternates) has a whole consistent-style X-Men/Marvel line, including Cyclops, Gambit, Juggernaut, and Quicksilver — worth checking first for any future roster gaps. One Havok candidate found (chibiprinters, Cults3D) was rejected outright for being partially AI-generated, regardless of license — same standard applied to the earlier UncleKam X-Men Busts pack.
 
-X-Men: Cyclops, Jean Grey (pending replacement search), Gambit, Rogue, Nightcrawler, Wolverine, Colossus, Beast (pending license confirmation), Danger Room training dummy (x8, unsourced)
+Roster complete. Full cast, both sides (Gambit, Rogue, Havok, and Beast are all still pending final license confirmation — their only found candidates are on blocked platforms):
+
+X-Men: Gambit, Rogue, Cyclops, Havok, Nightcrawler, Wolverine, Colossus, Beast, Danger Room training dummy (x8, unsourced)
 Brotherhood: Magneto, Mystique, Scarlet Witch, Toad, Sabretooth, Omega Red, Blob (unsourced), Juggernaut, reprogrammed Sentinel (x8) — Sentinel pawns should read as decayed/reprogrammed-by-Magneto at the paint/finishing stage, not a pristine sculpt
 
 Sentinel chosen over Genoshan Magistrates for the pawn specifically because a giant blocky robot is visually distinct at a glance from the humanoid, person-scaled Danger Room dummy, whereas Magistrates (human-shaped armored soldiers) would have silhouette-overlapped with the X-Men pawn.

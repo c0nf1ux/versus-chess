@@ -6,19 +6,25 @@ Licenses below are **actually verified**, not guessed — via `scripts/check-lic
 
 ## X-Men
 
+Roster restructured: Gambit/Rogue take King/Queen (another iconic long-running X-Men couple, replacing the unsourceable Cyclops/Jean Grey pairing), freeing Cyclops to become one of the two Bishops. Jean Grey, Storm, and Psylocke were all explored as Bishop-pairing candidates and dropped — see the "Also considered" note below.
+
 | Role | Character | Candidate | Verified license | Status |
 |---|---|---|---|---|
-| King | Cyclops | [monster_prey (Thingiverse)](https://www.thingiverse.com/thing:7044304) | CC BY-NC | ✅ Repo-eligible |
-| Queen | Jean Grey | ~~[Volpy Gregor (MyMiniFactory)](https://www.myminifactory.com/object/3d-print-phoenix-jean-grey-x-men-124189)~~ | CC BY-NC-**ND** | ❌ Not usable at all (blocks resize). **Needs a new candidate.** |
-| Bishop | Gambit *(replaces Bishop)* | [MakerWorld](https://makerworld.com/en/models/2843827-gambito-xmen) | Standard Digital File License | ❌ Not repo-eligible. [Printables alt](https://www.printables.com/model/997840-gambit-x-men) still unverified (blocked) |
-| Bishop | Rogue *(replaces Cable)* | [MakerWorld](https://makerworld.com/en/models/3136938-rogue-x-men-fan-art) | Standard Digital File License | ❌ Not repo-eligible. Other MakerWorld/Printables alts still unverified (blocked) |
+| King | Gambit | [MakerWorld](https://makerworld.com/en/models/2843827-gambito-xmen) | Standard Digital File License | ❌ Not repo-eligible. [Printables alt](https://www.printables.com/model/997840-gambit-x-men) still unverified (blocked) |
+| Queen | Rogue | [MakerWorld](https://makerworld.com/en/models/3136938-rogue-x-men-fan-art) | Standard Digital File License | ❌ Not repo-eligible. Other MakerWorld/Printables alts still unverified (blocked) |
+| Bishop | Cyclops | [monster_prey (Thingiverse)](https://www.thingiverse.com/thing:7044304) | CC BY-NC | ✅ Repo-eligible |
+| Bishop | Havok *(Cyclops's brother — replaces Jean Grey)* | [purakito (Cults3D)](https://cults3d.com/en/3d-model/game/marvel-classics-x-men-havok-1ce97263-59e8-46c3-b39e-3e5c68d6f612) — same trusted creator as the Colossus find below | Unverified — Cults3D blocked, but purakito's other work verified CC BY-NC | ⏳ Needs manual check. (Rejected alt: "Havok of X-Factor - MCP" by chibiprinters, explicitly noted as partially AI-generated — disqualified regardless of license.) |
 | Knight | Nightcrawler | [djvice (Printables)](https://www.printables.com/model/1570606-nightcrawler-x-men) | Unverified — Printables blocked | ⏳ Needs manual check |
 | Knight | Wolverine | [Myke542 (Thingiverse)](https://www.thingiverse.com/thing:4193461) | CC BY | ✅ Repo-eligible. (Also valid: [h3xequy](https://www.thingiverse.com/thing:5365711) BY-NC-SA, [MustangDave](https://www.thingiverse.com/thing:267321) BY-NC. Original Wekster "Mini Logan" candidate was CC BY-NC-**ND** — dropped.) |
 | Rook | Colossus | [purakito, "X-MEN 90s COLOSSUS" (Thingiverse)](https://www.thingiverse.com/thing:3390533) — replaces the dead MyMiniFactory link and the Standard-Licensed MakerWorld one | CC BY-NC | ✅ Repo-eligible |
 | Rook | Beast *(replaces Iceman, which replaced Warpath)* | [Beast Mini by KN16 (Printables)](https://www.printables.com/model/689885-beast-mini) | Unverified — Printables blocked | ⏳ Needs manual check. Weaker thematic fit than Iceman's ice-armor parallel to Colossus, but Iceman has no real standalone sculpt anywhere after ~6 searches (only an ice-effect accessory for an existing action figure turned up) |
 | Pawn x8 | Danger Room training dummy | — | — | ⏳ Unresolved — only an oversized (407mm) diorama display piece has turned up. Also tried the character "Danger" (the Danger Room's AI, given a robot body in Astonishing X-Men) as a sharper alternative — same result, nothing found. |
 
-**Note:** Volpy Gregor's whole line (Jean Grey, Colossus, Iceman) is out — either ND-licensed or dead. The "one creator, consistent style" idea from earlier doesn't hold up. Colossus was re-sourced from Thingiverse instead. **Kobarf** (the creator behind Toad and the original Colossus wargaming-mini alt) has a whole consistent-style X-Men/Marvel line worth checking first for future gaps — confirmed to also include Cyclops, Gambit, Sabretooth, Juggernaut, and Quicksilver, though no Beast or Jean Grey. One AI-generated pack ("X-Men Busts Part 2" by UncleKam, explicitly built from Bing Image Creator + MakerWorld's Image-to-3D tool) was found and rejected outright — fails the "no superficial/AI-looking sculpts" bar regardless of license.
+**Note:** Volpy Gregor's whole line (Jean Grey, Colossus, Iceman) is out — either ND-licensed or dead. The "one creator, consistent style" idea from earlier doesn't hold up for Volpy Gregor, but **purakito** (Colossus, Havok) and **Kobarf** (Toad, and confirmed to also cover Cyclops, Gambit, Sabretooth, Juggernaut, Quicksilver — though not Beast or Jean Grey) are both proving to be reliable, real-sculpted, consistently-licensed sources worth checking first for future gaps. One AI-generated pack ("X-Men Busts Part 2" by UncleKam, explicitly built from Bing Image Creator + MakerWorld's Image-to-3D tool) was found and rejected outright — fails the "no superficial/AI-looking sculpts" bar regardless of license.
+
+## Also considered and rejected for the X-Men Bishop slot
+
+Before landing on Havok, three other pairings for Cyclops's second Bishop were explored: **Jean Grey** (original Queen pick, zero repo-eligible options after several rounds — every lead was CC BY-NC-ND, blocking the resize step entirely), **Storm** (one real candidate found, also CC BY-NC-ND), and **Psylocke** (one real candidate found, both non-repo-eligible *and* the wrong format — a Hueforge 2.5D color-relief print, not an actual sculptable bust). Havok won out because purakito is an already-trusted creator and the plasma-blast/optic-beam sibling power fit is even tighter than Jean Grey's telepathy was.
 
 ## Brotherhood
 
@@ -44,13 +50,12 @@ Before finding real Juggernaut candidates via manual browsing, automated search 
 
 ## Summary
 
-- **Confirmed repo-eligible (6):** Cyclops, Wolverine, Colossus, Toad, Sentinel — plus Jean Grey's role stays open, not filled by a compromise.
-- **Confirmed NOT usable at all, ND blocks resizing — no replacement found yet (1):** Jean Grey. This is the one role (Queen) we're not filling with a lesser substitute, since Cyclops/Jean Grey as King/Queen mirrors their in-universe marriage — worth the wait for a real candidate.
+- **Confirmed repo-eligible (5):** Cyclops, Wolverine, Colossus, Toad, Sentinel.
 - **Confirmed not repo-eligible, personal-print-only (5):** Gambit, Rogue, Magneto, Sabretooth, Omega Red — may still have a repo-eligible alternative on Printables/Cults3D pending manual check.
 - **Still unresolved, no candidate at all (2):** Danger Room training dummy, Blob.
-- **Awaiting manual relay from a blocked platform (5):** Nightcrawler, Mystique, Scarlet Witch, Juggernaut, Beast.
+- **Awaiting manual relay from a blocked platform (6):** Havok, Nightcrawler, Mystique, Scarlet Witch, Juggernaut, Beast.
 
 ## Next steps
 
-1. Manually check the 5 "awaiting manual relay" links on Printables/Cults3D and report back the license badge shown (Jean Grey's Cults3D lead and Beast's Printables lead are the two highest-priority ones — both are currently the *only* candidate for their role).
+1. Manually check the 6 "awaiting manual relay" links on Printables/Cults3D and report back the license badge shown. Havok and Beast are the two highest-priority ones — both are currently the *only* candidate for their role.
 2. Once a character's license is confirmed repo-eligible, download it into `matchups/xmen-vs-brotherhood/raw/<character>.stl` (gitignored raw source, kept local) and use `import()` + `resize()` in a per-character `.scad` file to conform it to that role's height from `docs/PROJECT-SPEC.md`.
