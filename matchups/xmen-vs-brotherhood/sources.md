@@ -14,11 +14,11 @@ Licenses below are **actually verified**, not guessed — via `scripts/check-lic
 | Bishop | Rogue *(replaces Cable)* | [MakerWorld](https://makerworld.com/en/models/3136938-rogue-x-men-fan-art) | Standard Digital File License | ❌ Not repo-eligible. Other MakerWorld/Printables alts still unverified (blocked) |
 | Knight | Nightcrawler | [djvice (Printables)](https://www.printables.com/model/1570606-nightcrawler-x-men) | Unverified — Printables blocked | ⏳ Needs manual check |
 | Knight | Wolverine | [Myke542 (Thingiverse)](https://www.thingiverse.com/thing:4193461) | CC BY | ✅ Repo-eligible. (Also valid: [h3xequy](https://www.thingiverse.com/thing:5365711) BY-NC-SA, [MustangDave](https://www.thingiverse.com/thing:267321) BY-NC. Original Wekster "Mini Logan" candidate was CC BY-NC-**ND** — dropped.) |
-| Rook | Colossus | ~~[MyMiniFactory](https://www.myminifactory.com/object/3d-print-colossus-x-men-124831)~~ dead link (404); [MakerWorld](https://makerworld.com/en/models/791080-colossus) | Standard Digital File License | ❌ Not repo-eligible, and the alt is dead. **Needs a new candidate.** |
-| Rook | Iceman *(replaces Warpath)* | ~~[Volpy Gregor (MyMiniFactory)](https://www.myminifactory.com/object/3d-print-iceman-x-men-128405)~~ | CC BY-NC-**ND** | ❌ Not usable at all (blocks resize). **Needs a new candidate.** |
-| Pawn x8 | Danger Room training dummy | — | — | ⏳ Unresolved — only an oversized (407mm) diorama display piece has turned up, wrong purpose |
+| Rook | Colossus | [purakito, "X-MEN 90s COLOSSUS" (Thingiverse)](https://www.thingiverse.com/thing:3390533) — replaces the dead MyMiniFactory link and the Standard-Licensed MakerWorld one | CC BY-NC | ✅ Repo-eligible |
+| Rook | Beast *(replaces Iceman, which replaced Warpath)* | [Beast Mini by KN16 (Printables)](https://www.printables.com/model/689885-beast-mini) | Unverified — Printables blocked | ⏳ Needs manual check. Weaker thematic fit than Iceman's ice-armor parallel to Colossus, but Iceman has no real standalone sculpt anywhere after ~6 searches (only an ice-effect accessory for an existing action figure turned up) |
+| Pawn x8 | Danger Room training dummy | — | — | ⏳ Unresolved — only an oversized (407mm) diorama display piece has turned up. Also tried the character "Danger" (the Danger Room's AI, given a robot body in Astonishing X-Men) as a sharper alternative — same result, nothing found. |
 
-**Note:** Volpy Gregor's whole line (Jean Grey, Colossus, Iceman) is out — either ND-licensed or dead. The "one creator, consistent style" idea from earlier doesn't hold up; each of these three now needs an independent replacement.
+**Note:** Volpy Gregor's whole line (Jean Grey, Colossus, Iceman) is out — either ND-licensed or dead. The "one creator, consistent style" idea from earlier doesn't hold up. Colossus was re-sourced from Thingiverse instead. **Kobarf** (the creator behind Toad and the original Colossus wargaming-mini alt) has a whole consistent-style X-Men/Marvel line worth checking first for future gaps — confirmed to also include Cyclops, Gambit, Sabretooth, Juggernaut, and Quicksilver, though no Beast or Jean Grey. One AI-generated pack ("X-Men Busts Part 2" by UncleKam, explicitly built from Bing Image Creator + MakerWorld's Image-to-3D tool) was found and rejected outright — fails the "no superficial/AI-looking sculpts" bar regardless of license.
 
 ## Brotherhood
 
@@ -32,7 +32,7 @@ Licenses below are **actually verified**, not guessed — via `scripts/check-lic
 | Knight | Omega Red | [Wicked/3dWicked (CGTrader)](https://www.cgtrader.com/free-3d-print-models/art/other/wicked-marvel-omega-red-bust) | CGTrader "Royalty Free" ($0.00, free:true confirmed) | ❌ Not repo-eligible — CGTrader's Royalty Free terms forbid redistributing the file itself. Fine to print as-is. |
 | Rook | Blob | — | — | ⏳ Unresolved after 5 search attempts (see below) |
 | Rook | Juggernaut | [customsculture](https://cults3d.com/en/3d-model/art/juggernaut-customsculture) or [Artaniss](https://cults3d.com/en/3d-model/game/juggernaut-artaniss) (Cults3D) | User-confirmed free; exact CC variant unverified — Cults3D blocked | ⏳ Needs manual check of the actual badge (not just price) |
-| Pawn x8 | Reprogrammed Sentinel | [DUB DA GREAT (MakerWorld)](https://makerworld.com/en/models/2475206-sentinel-x-men) | MakerWorld Exclusive License | ❌ Not repo-eligible. **Needs a new candidate.** |
+| Pawn x8 | Reprogrammed Sentinel | [deepsead1ver (Thingiverse)](https://www.thingiverse.com/thing:3301806) or [TNewey (Thingiverse)](https://www.thingiverse.com/thing:5426419) — replaces the Exclusive-Licensed MakerWorld one | CC BY (both) | ✅ Repo-eligible. Generic Sentinel geometry is fine as the base — the "reprogrammed/decayed by Magneto" flavor is a paint/weathering detail applied at the physical finishing stage, not something that needs a different source model. |
 
 ## Also considered and rejected for the Brotherhood Rook slot
 
@@ -44,14 +44,13 @@ Before finding real Juggernaut candidates via manual browsing, automated search 
 
 ## Summary
 
-- **Confirmed repo-eligible (3):** Cyclops, Wolverine, Toad.
-- **Confirmed NOT usable at all, ND blocks resizing (2):** Jean Grey, Iceman — need replacements.
-- **Confirmed not repo-eligible, personal-print-only (6):** Gambit, Rogue, Colossus, Magneto, Sabretooth, Omega Red, Sentinel — Colossus and Sentinel need full replacements since their only other candidates are dead/nonexistent; the rest may still have a repo-eligible alternative on Printables/Cults3D pending manual check.
+- **Confirmed repo-eligible (6):** Cyclops, Wolverine, Colossus, Toad, Sentinel — plus Jean Grey's role stays open, not filled by a compromise.
+- **Confirmed NOT usable at all, ND blocks resizing — no replacement found yet (1):** Jean Grey. This is the one role (Queen) we're not filling with a lesser substitute, since Cyclops/Jean Grey as King/Queen mirrors their in-universe marriage — worth the wait for a real candidate.
+- **Confirmed not repo-eligible, personal-print-only (5):** Gambit, Rogue, Magneto, Sabretooth, Omega Red — may still have a repo-eligible alternative on Printables/Cults3D pending manual check.
 - **Still unresolved, no candidate at all (2):** Danger Room training dummy, Blob.
-- **Awaiting manual relay from a blocked platform (4):** Nightcrawler, Mystique, Scarlet Witch, Juggernaut.
+- **Awaiting manual relay from a blocked platform (5):** Nightcrawler, Mystique, Scarlet Witch, Juggernaut, Beast.
 
 ## Next steps
 
-1. Manually check the 4 "awaiting manual relay" links on Printables/Cults3D and report back the license badge shown.
-2. Find real replacements for Jean Grey, Iceman, Colossus, and Sentinel — all four currently have zero repo-eligible options.
-3. Once a character's license is confirmed repo-eligible, download it into `matchups/xmen-vs-brotherhood/raw/<character>.stl` (gitignored raw source, kept local) and use `import()` + `resize()` in a per-character `.scad` file to conform it to that role's height from `docs/PROJECT-SPEC.md`.
+1. Manually check the 5 "awaiting manual relay" links on Printables/Cults3D and report back the license badge shown (Jean Grey's Cults3D lead and Beast's Printables lead are the two highest-priority ones — both are currently the *only* candidate for their role).
+2. Once a character's license is confirmed repo-eligible, download it into `matchups/xmen-vs-brotherhood/raw/<character>.stl` (gitignored raw source, kept local) and use `import()` + `resize()` in a per-character `.scad` file to conform it to that role's height from `docs/PROJECT-SPEC.md`.

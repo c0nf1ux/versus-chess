@@ -86,17 +86,19 @@ Board order for reference: Rook–Knight–Bishop–[Queen–King]–Bishop–Kn
 | Queen | Jean Grey | Mystique |
 | Bishop x2 | Gambit, Rogue | Scarlet Witch, Toad |
 | Knight x2 | Nightcrawler, Wolverine | Sabretooth, Omega Red |
-| Rook x2 | Colossus, Iceman | Blob, Juggernaut |
+| Rook x2 | Colossus, Beast | Blob, Juggernaut |
 | Pawn (x8, one sculpt reused) | Danger Room training dummy | Reprogrammed Sentinel |
 
 **Revision note:** Bishop, Cable, Warpath, Polaris, and Quicksilver were swapped out after an automated web-search sourcing pass found no usable free/CC-licensed 3D model for any of them (see `matchups/xmen-vs-brotherhood/sources.md`) — all turned up paid-only or no results. Replacements were picked on two criteria: (1) a real sourceable model exists, and (2) the character's power/archetype naturally matches its board role rather than just its affiliation — e.g. Iceman's organic ice-armor form parallels Colossus's metal-skin "living armor" look for the second Rook, both visually reading as the fortress/tank archetype the role calls for. Scarlet Witch and Toad are actually founding Brotherhood of Evil Mutants members, an upgrade in lore-accuracy over Polaris/Quicksilver. Rogue's earliest history was as a Brotherhood villain before defecting, but her defining, universally-recognized association is X-Men — same judgment call already made for Mystique above.
 
 Juggernaut was briefly swapped for Avalanche when automated search turned up nothing for him, but manual browsing on Cults3D found real free candidates search had missed — reverted back to Juggernaut, the correct archetype fit for Rook anyway. Blob himself still remains an open sourcing gap (automated search never found him; worth a manual Cults3D check too, same as Juggernaut).
 
-Roster complete. Full cast, both sides:
+**Second revision (license verification pass):** Actually checking licenses (not just "is it free") on the sourced candidates found that Jean Grey and Iceman's only options (both by the same creator, Volpy Gregor) are CC BY-NC-**ND** — No Derivatives, which blocks the resize-to-fit-role-height step entirely, not just redistribution. Iceman was swapped for **Beast** (strength/agility archetype, a looser thematic fit than the ice-armor parallel to Colossus, but a real popular character worth having in the roster regardless). Jean Grey has no replacement yet — Queen is the one role where a substitute would be a real loss (Cyclops/Jean Grey as King/Queen mirrors their in-universe marriage), so a last Cults3D lead is being manually checked before considering alternatives. Colossus's MakerWorld/MyMiniFactory candidates were also both non-repo-eligible (Standard License / dead link) — replaced with a real Thingiverse find (purakito, CC BY-NC). Sentinel's MakerWorld candidate was "MakerWorld Exclusive License" — replaced with two real CC BY Thingiverse options. Also worth noting for later: Kobarf (the creator behind the Colossus/Toad wargaming-miniature alternates) has a whole consistent-style X-Men/Marvel line, including Cyclops, Gambit, Juggernaut, and Quicksilver — worth checking first for any future roster gaps.
 
-X-Men: Cyclops, Jean Grey, Gambit, Rogue, Nightcrawler, Wolverine, Colossus, Iceman, Danger Room training dummy (x8)
-Brotherhood: Magneto, Mystique, Scarlet Witch, Toad, Sabretooth, Omega Red, Blob, Juggernaut, reprogrammed Sentinel (x8)
+Roster complete. Full cast, both sides (Beast still pending final confirmation — its only found candidate is on a blocked platform):
+
+X-Men: Cyclops, Jean Grey (pending replacement search), Gambit, Rogue, Nightcrawler, Wolverine, Colossus, Beast (pending license confirmation), Danger Room training dummy (x8, unsourced)
+Brotherhood: Magneto, Mystique, Scarlet Witch, Toad, Sabretooth, Omega Red, Blob (unsourced), Juggernaut, reprogrammed Sentinel (x8) — Sentinel pawns should read as decayed/reprogrammed-by-Magneto at the paint/finishing stage, not a pristine sculpt
 
 Sentinel chosen over Genoshan Magistrates for the pawn specifically because a giant blocky robot is visually distinct at a glance from the humanoid, person-scaled Danger Room dummy, whereas Magistrates (human-shaped armored soldiers) would have silhouette-overlapped with the X-Men pawn.
 
