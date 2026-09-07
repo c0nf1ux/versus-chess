@@ -4,7 +4,7 @@ Found via web search, not yet manually verified. **Nobody's downloaded, license-
 
 **Repo-eligible** = license, once actually confirmed, allows redistributing a modified file (CC BY / BY-SA / BY-NC / BY-NC-SA). Paid marketplace files (Cults3D premium, CGTrader, Gambody, Etsy, Gumroad) are print-only — their EULAs generally forbid redistributing the file even if you scale/modify it, so those never go in the repo regardless of what's on the badge.
 
-Roster below reflects the **revised** cast (see `docs/PROJECT-SPEC.md`'s revision note) — Bishop, Cable, Warpath, Polaris, Quicksilver, and Juggernaut were swapped out after none of them turned up a usable free model.
+Roster below reflects the **revised** cast (see `docs/PROJECT-SPEC.md`'s revision note) — Bishop, Cable, Warpath, Polaris, and Quicksilver were swapped out after none of them turned up a usable free model via automated search. Juggernaut was briefly swapped too, then reverted after manual browsing found real free candidates automated search had missed (see below) — a reminder that "not found by search" isn't the same as "doesn't exist."
 
 ## X-Men
 
@@ -30,18 +30,18 @@ Roster below reflects the **revised** cast (see `docs/PROJECT-SPEC.md`'s revisio
 | Bishop | Toad *(replaces Quicksilver)* | [Toad X-Men (35mm pre-supported Wargame Miniature) by Kobarf](https://www.thingiverse.com/thing:4230179) — same creator as the Colossus wargaming-mini alternate above | Thingiverse | Free | Verify license on page |
 | Knight | Sabretooth | [Sabretooth from the X-Men Comics by Rober Rollin](https://www.myminifactory.com/object/3d-print-sabretooth-from-the-x-men-comics-105822) | MyMiniFactory | Unconfirmed | Verify price/license on page |
 | Knight | Omega Red | [Wicked Marvel Omega Red Bust](https://www.cgtrader.com/free-3d-print-models/art/other/wicked-marvel-omega-red-bust) | CGTrader | Free (URL path says so) | Verify license on page |
-| Rook | Blob | — | — | — | **Still unresolved after 5 search attempts** (direct, "The Blob"/Fred Dukes, Cults3D-targeted, and via the 3dWicked catalog which covers dozens of other Marvel busts but not this one). Genuinely under-represented in the fan-print community. Revisit later — commission a custom sculpt, or browse Cults3D's own search directly since it blocks automated fetch. |
-| Rook | Avalanche *(replaces Juggernaut)* | [Avalancha by barnes76](https://cults3d.com/ru/3d-model/igra/avalancha-barnes76) | Cults3D | Free | Verify license on page (Russian-locale URL, check for an English mirror) |
+| Rook | Blob | — | — | — | **Still unresolved after 5 automated search attempts** (direct, "The Blob"/Fred Dukes, Cults3D-targeted, and via the 3dWicked catalog which covers dozens of other Marvel busts but not this one). Given Juggernaut turned up on manual Cults3D browsing after automated search missed him entirely, worth a manual check here too before assuming Blob truly doesn't exist on the platform. |
+| Rook | Juggernaut | [Juggernaut by customsculture](https://cults3d.com/en/3d-model/art/juggernaut-customsculture) or [Juggernaut by Artaniss](https://cults3d.com/en/3d-model/game/juggernaut-artaniss) — found via manual browsing, confirmed free by user; automated search missed both | Cults3D | Free (user-confirmed) | Verify exact license badge on page (free-to-download ≠ free-to-redistribute-modified on Cults3D — look for the CC badge specifically, not just price) |
 | Pawn x8 | Reprogrammed Sentinel | [Sentinel (X-MEN) by DUB DA GREAT](https://makerworld.com/en/models/2475206-sentinel-x-men) | MakerWorld | Free | Verify license on page |
 
 ## Also considered and rejected for the Brotherhood Rook slot
 
-Before landing on Avalanche as the practical (if thematically imperfect) pick, also searched: **Unus the Untouchable** (founding Brotherhood member, force-field power is a strong "wall" archetype fit — but too obscure, no dedicated model exists anywhere searched) and **Frenzy/Joanna Cargill** (modern Brotherhood/Acolytes brute — also no model found). Avalanche was the only one of the three with an actual sourceable candidate.
+Before finding real Juggernaut candidates via manual browsing, automated search turned up nothing for him, so alternates were considered: **Avalanche** (Cults3D free candidate found, but a weaker "wall" archetype fit — his power is seismic/area-denial, not immovable mass), **Unus the Untouchable** (founding Brotherhood member, force-field power is actually a strong "wall" fit — but too obscure, no dedicated model found), and **Frenzy/Joanna Cargill** (modern Brotherhood/Acolytes brute — also no model found). All moot now that Juggernaut himself is back in.
 
 ## Summary
 
-- **Solid free candidates, pending license verification (12):** Cyclops, Jean Grey, Gambit, Rogue, Nightcrawler, Wolverine, Colossus, Iceman, Mystique, Scarlet Witch, Toad, Omega Red, Sentinel, Avalanche.
-- **Unresolved (2):** Danger Room training dummy, Blob (the one open casting gap — Avalanche fills its board slot but isn't really *him*).
+- **Solid free candidates, pending license verification (13):** Cyclops, Jean Grey, Gambit, Rogue, Nightcrawler, Wolverine, Colossus, Iceman, Mystique, Scarlet Witch, Toad, Omega Red, Sentinel, Juggernaut.
+- **Unresolved (2):** Danger Room training dummy, Blob.
 - **Needs a legitimacy check beyond site trust (1):** confirm the exact license text on the Magneto page.
 
 ## Next steps

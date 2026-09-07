@@ -86,17 +86,17 @@ Board order for reference: Rook–Knight–Bishop–[Queen–King]–Bishop–Kn
 | Queen | Jean Grey | Mystique |
 | Bishop x2 | Gambit, Rogue | Scarlet Witch, Toad |
 | Knight x2 | Nightcrawler, Wolverine | Sabretooth, Omega Red |
-| Rook x2 | Colossus, Iceman | Blob, Avalanche |
+| Rook x2 | Colossus, Iceman | Blob, Juggernaut |
 | Pawn (x8, one sculpt reused) | Danger Room training dummy | Reprogrammed Sentinel |
 
-**Revision note:** Bishop, Cable, Warpath, Polaris, Quicksilver, and Juggernaut were all swapped out after a sourcing pass found no usable free/CC-licensed 3D model for any of them (see `matchups/xmen-vs-brotherhood/sources.md`) — Bishop/Cable/Warpath/Polaris/Quicksilver only turned up paid-only or no results at all, Juggernaut was judged too niche to source reliably. Replacements were picked on two criteria: (1) a real sourceable model exists, and (2) the character's power/archetype naturally matches its board role rather than just its affiliation — e.g. Iceman's organic ice-armor form parallels Colossus's metal-skin "living armor" look for the second Rook, both visually reading as the fortress/tank archetype the role calls for. Scarlet Witch and Toad are actually founding Brotherhood of Evil Mutants members, an upgrade in lore-accuracy over Polaris/Quicksilver. Rogue's earliest history was as a Brotherhood villain before defecting, but her defining, universally-recognized association is X-Men — same judgment call already made for Mystique above.
+**Revision note:** Bishop, Cable, Warpath, Polaris, and Quicksilver were swapped out after an automated web-search sourcing pass found no usable free/CC-licensed 3D model for any of them (see `matchups/xmen-vs-brotherhood/sources.md`) — all turned up paid-only or no results. Replacements were picked on two criteria: (1) a real sourceable model exists, and (2) the character's power/archetype naturally matches its board role rather than just its affiliation — e.g. Iceman's organic ice-armor form parallels Colossus's metal-skin "living armor" look for the second Rook, both visually reading as the fortress/tank archetype the role calls for. Scarlet Witch and Toad are actually founding Brotherhood of Evil Mutants members, an upgrade in lore-accuracy over Polaris/Quicksilver. Rogue's earliest history was as a Brotherhood villain before defecting, but her defining, universally-recognized association is X-Men — same judgment call already made for Mystique above.
 
-Avalanche is a weaker archetype fit for Rook (his power is seismic/area-denial, not "immovable wall" the way Blob/Juggernaut/Colossus are) but was the only sourceable Brotherhood heavy-hitter found; Blob himself — the character who actually earns that slot — has not turned up a usable model after three search passes and remains an open sourcing gap.
+Juggernaut was briefly swapped for Avalanche when automated search turned up nothing for him, but manual browsing on Cults3D found real free candidates search had missed — reverted back to Juggernaut, the correct archetype fit for Rook anyway. Blob himself still remains an open sourcing gap (automated search never found him; worth a manual Cults3D check too, same as Juggernaut).
 
 Roster complete. Full cast, both sides:
 
 X-Men: Cyclops, Jean Grey, Gambit, Rogue, Nightcrawler, Wolverine, Colossus, Iceman, Danger Room training dummy (x8)
-Brotherhood: Magneto, Mystique, Scarlet Witch, Toad, Sabretooth, Omega Red, Blob, Avalanche, reprogrammed Sentinel (x8)
+Brotherhood: Magneto, Mystique, Scarlet Witch, Toad, Sabretooth, Omega Red, Blob, Juggernaut, reprogrammed Sentinel (x8)
 
 Sentinel chosen over Genoshan Magistrates for the pawn specifically because a giant blocky robot is visually distinct at a glance from the humanoid, person-scaled Danger Room dummy, whereas Magistrates (human-shaped armored soldiers) would have silhouette-overlapped with the X-Men pawn.
 

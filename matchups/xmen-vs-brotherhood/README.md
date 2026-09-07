@@ -10,7 +10,7 @@ Board order: Rook–Knight–Bishop–[Queen–King]–Bishop–Knight–Rook, m
 | Queen | Jean Grey | Mystique |
 | Bishop x2 | Gambit, Rogue | Scarlet Witch, Toad |
 | Knight x2 | Nightcrawler, Wolverine | Sabretooth, Omega Red |
-| Rook x2 | Colossus, Iceman | Blob, Avalanche |
+| Rook x2 | Colossus, Iceman | Blob, Juggernaut |
 | Pawn (x8, one sculpt reused) | Danger Room training dummy | Reprogrammed Sentinel |
 
 Revised from the original roster (Bishop/Cable/Warpath/Polaris/Quicksilver/Juggernaut) after a sourcing pass — see [`sources.md`](sources.md) for candidates and [`docs/PROJECT-SPEC.md`](../../docs/PROJECT-SPEC.md#matchup-1-x-men-vs-brotherhood--roster-tracker) for full casting rationale, including the still-open Blob sourcing gap.
