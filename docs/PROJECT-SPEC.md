@@ -84,15 +84,19 @@ Board order for reference: Rook–Knight–Bishop–[Queen–King]–Bishop–Kn
 |---|---|---|
 | King | Cyclops | Magneto |
 | Queen | Jean Grey | Mystique |
-| Bishop x2 | Bishop, Cable | Polaris, Quicksilver |
+| Bishop x2 | Gambit, Rogue | Scarlet Witch, Toad |
 | Knight x2 | Nightcrawler, Wolverine | Sabretooth, Omega Red |
-| Rook x2 | Colossus, Warpath | Blob, Juggernaut |
+| Rook x2 | Colossus, Iceman | Blob, Avalanche |
 | Pawn (x8, one sculpt reused) | Danger Room training dummy | Reprogrammed Sentinel |
+
+**Revision note:** Bishop, Cable, Warpath, Polaris, Quicksilver, and Juggernaut were all swapped out after a sourcing pass found no usable free/CC-licensed 3D model for any of them (see `matchups/xmen-vs-brotherhood/sources.md`) — Bishop/Cable/Warpath/Polaris/Quicksilver only turned up paid-only or no results at all, Juggernaut was judged too niche to source reliably. Replacements were picked on two criteria: (1) a real sourceable model exists, and (2) the character's power/archetype naturally matches its board role rather than just its affiliation — e.g. Iceman's organic ice-armor form parallels Colossus's metal-skin "living armor" look for the second Rook, both visually reading as the fortress/tank archetype the role calls for. Scarlet Witch and Toad are actually founding Brotherhood of Evil Mutants members, an upgrade in lore-accuracy over Polaris/Quicksilver. Rogue's earliest history was as a Brotherhood villain before defecting, but her defining, universally-recognized association is X-Men — same judgment call already made for Mystique above.
+
+Avalanche is a weaker archetype fit for Rook (his power is seismic/area-denial, not "immovable wall" the way Blob/Juggernaut/Colossus are) but was the only sourceable Brotherhood heavy-hitter found; Blob himself — the character who actually earns that slot — has not turned up a usable model after three search passes and remains an open sourcing gap.
 
 Roster complete. Full cast, both sides:
 
-X-Men: Cyclops, Jean Grey, Bishop, Cable, Nightcrawler, Wolverine, Colossus, Warpath, Danger Room training dummy (x8)
-Brotherhood: Magneto, Mystique, Polaris, Quicksilver, Sabretooth, Omega Red, Blob, Juggernaut, reprogrammed Sentinel (x8)
+X-Men: Cyclops, Jean Grey, Gambit, Rogue, Nightcrawler, Wolverine, Colossus, Iceman, Danger Room training dummy (x8)
+Brotherhood: Magneto, Mystique, Scarlet Witch, Toad, Sabretooth, Omega Red, Blob, Avalanche, reprogrammed Sentinel (x8)
 
 Sentinel chosen over Genoshan Magistrates for the pawn specifically because a giant blocky robot is visually distinct at a glance from the humanoid, person-scaled Danger Room dummy, whereas Magistrates (human-shaped armored soldiers) would have silhouette-overlapped with the X-Men pawn.
 
